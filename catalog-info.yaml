@@ -1,0 +1,18 @@
+# backstage catalog info
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: bricklayer
+  description: The place to be, for great artists
+  tags:
+    - rust
+  links:
+    - url: https://github.com/lingfromSh/backstage-demo
+      title: Code Repository
+      icon: dashboard
+      type: admin-dashboard
+spec:
+  type: service
+  lifecycle: production
+  owner: shiyun.ling
+  system: public-websites
